@@ -1,9 +1,12 @@
-import "./App.css";
+import { Button } from "./components/ui/button";
 
 function App() {
   return (
     <>
-      <main>Hello weorl:d</main>
+      <main>
+        Hello weorl:d
+        <Button>Hello</Button>
+      </main>
     </>
   );
 }
