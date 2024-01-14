@@ -3,9 +3,9 @@ import { Button } from "./components/ui/button";
 function App() {
   return (
     <>
-      <main>
+      <main className="">
         Hello weorl:d
-        <Button>Hello</Button>
+        <Button>Buy</Button>
       </main>
     </>
   );
