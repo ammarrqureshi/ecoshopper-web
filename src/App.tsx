@@ -1,4 +1,5 @@
 import { Navbar } from "./components/nav/Navbar";
+import { Progress } from "./components/ui/progress";
 
 function App() {
   return (
@@ -6,8 +7,9 @@ function App() {
       <main className="">
         <Navbar />
 
-        <section className="max-w-20">
+        <section className="max-w-md">
           <h1>Heading</h1>
+          <Progress value={23} />
 
           <p>
             arcu. Fusce vehicula vestibulum sem, vitae tincidunt urna. Interdum
